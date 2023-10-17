@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Rubik";
+}
+
+/* HEAD AND LOGO PART  */
+
+.head-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+/* BACKGROUND AND HEADING PART  */
+
+.main-part img {
+    z-index: -1;
+    height: 350px;
+    /* border: 2px solid blue; */
+}
+
+.main-part h1{
+    /* border: 1px solid black; */
+    width: 300px;
+    color: white;
+    margin-top: -300px;
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+.main-part h4 {
+    font-size: 18px;
+    color: white;
+    margin-top: -20px;
+    padding-left: 80px;
+}
+
+/* DISCOVER NEW BOOKS AND GAMES AND HANDMADE THINGS ALL TOGETHR */
+
+.height {
+    /* margin-top: 80px; */
+    padding-left: 80px;
+}
+
+.flex-img {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-img h4 {
+    /* border: 1px solid red; */
+    margin-top: 0px;
+}
+
+
+.flex-img p {
+    /* border: 1px solid red; */
+    margin-top: -15px;
+    color: rgb(160, 157, 157);
+    font-size: 15px;
+}
+
+/* COST BUTTON  */
+
+.flex-cost {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    /* border: 1px solid black */
+}
+
+.flex-cost button {
+    background-color: rgb(97, 150, 255);
+    height: 20px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+}
+
+.flex-cost h5 {
+    margin-top: 2px;
+}
+
+footer {
+    margin-top: 130px;
+    background-color: black;
+    color: white;
+    width: 99vw;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+.flex-footer h3 {
+    /* border: 1px solid red; */
+    margin-top: 0px;
+}
+
+.flex-footer img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.intro {
+    text-align: end;
+    padding-right: 50px;
+}
+
+/* RESPONSIVE PART  */
+
+@media only screen and (max-width: 600px){
+    .head{
+        padding-left: 0px;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-part img{
+        width: 100%;
+        height: 400px;
+    }
+    .main-part h1{
+        padding-left: 20px;
+        width: 100vw;
+        margin-top: -380px;
+    }
+    .main-part h4{
+        margin-top: 50px;
+    }
+    .flex-img{
+       display:block;
+       justify-content: center;
+        align-items: center;
+        height: 2000px;
+    }
+
+    .flex-cost{
+        display:inline;
+        
+    }
+
+}
